@@ -1,0 +1,8 @@
+class Patient():
+    def __init__(self, last_name, first_name, age):
+        self.last_name = last_name
+        self.first_name = first_name
+        self.age = age
+    def say_if_minor(self):
+        if self.age < 21:
+            print("This patient is a minor")
